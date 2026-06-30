@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h2>Notification System</h2>
+    <div class="notification-container">
+        <div class="bell" id="bell">
+            🔔
+            <span class="badge" id="badge">5</span>
+        </div>
+        <div class="notification-panel" id="panel">
+            <div class="panel-header">
+                <h3>Notifications</h3>
+                <button id="markRead">Mark all Read</button>
+            </div>
+            <ul id="notificationList">
+                <li class="unread">
+                    <strong>New Message</strong>
+                    <p>You received a new message.</p>
+                </li>
+                <li class="unread">
+                    <strong>Task Completed</strong>
+                    <p>Your project has been approved.</p>
+                </li>
+                <li class="unread">
+                    <strong>Reminder</strong>
+                    <p>Meeting starts in 30 minutes.</p>
+                </li>
+                <li class="unread">
+                    <strong>Placement</strong>
+                    <p>CSX corporation hiring</p>
+                </li>
+                <li class="unread">
+                    <strong>Result</strong>
+                    <p>Mid sem results are published today evening</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<script src="script.js"></script>
+</body>
+</html>
